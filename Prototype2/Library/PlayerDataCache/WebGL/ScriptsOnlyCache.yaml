@@ -59,10 +59,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.SpriteState
-  methodsToPreserve:
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.Object
-    methodName: set_name
+  methodsToPreserve: []
   sceneClasses:
     Assets/Challenge 2/Challenge 2.unity:
     - Class: 1
@@ -128,17 +125,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4280}
     - Class: 114
-      Script: {instanceID: 4708}
+      Script: {instanceID: 4442}
     - Class: 114
-      Script: {instanceID: 4968}
+      Script: {instanceID: 4710}
     - Class: 114
-      Script: {instanceID: 5508}
+      Script: {instanceID: 4970}
     - Class: 114
-      Script: {instanceID: 5964}
+      Script: {instanceID: 5510}
     - Class: 114
-      Script: {instanceID: 24974}
+      Script: {instanceID: 5966}
     - Class: 114
-      Script: {instanceID: 24978}
+      Script: {instanceID: 7732}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -592,6 +589,12 @@ ScriptsOnlyBuild:
     className: UnityOnCancelMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 549c127769a6a8a6a1905379a6342551
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PressHandler
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1022,13 +1025,7 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Link
-  - hash:
-      serializedVersion: 2
-      Hash: 549c127769a6a8a6a1905379a6342551
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PressHandler
   platform: 20
   scenePathNames:
   - Assets/Challenge 2/Challenge 2.unity
-  playerPath: C:/Users/mira_/Desktop/CreateWithCode/webglTest
+  playerPath: C:/Users/mira_/Documents/GitHub/Unit2CreateWithCode
